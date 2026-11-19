@@ -7,7 +7,7 @@ WHERE category = 'Clothing';
 SELECT * 
 FROM products
 ORDER BY price DESC
-LIMIT 5; -- (Use TOP 5 if running on SQL Server)
+LIMIT 5;
 
 3. List all orders placed by a specific user (e.g., user_id = 101)
 SELECT * 
